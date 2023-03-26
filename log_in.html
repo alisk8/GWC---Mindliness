@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Mindliness | Log-in</title>
+  <link rel="shortcut icon" href="kkk.png">
+  <link rel="stylesheet" href="styles/index.processed.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="new.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg main-nav px-0">
+        <a class="navbar-brand" href="index.html">
+          <img src="kkk.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu"
+          aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon-bar icon-bar-1"></span>
+          <span class="icon-bar icon-bar-2"></span>
+          <span class="icon-bar icon-bar-3"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav ml-auto text-uppercase f1">
+            <li>
+              <a href="index.html" class="active active-first">home</a>
+            </li>
+            <li>
+              <a href="challenges.html">Challenges</a>
+            </li>
+            <li>
+              <a href="buddies.html">Buddies</a>
+            </li>
+
+            <li>
+              <a href="journal.html">Journaling</a>
+            </li>
+            <li>
+              <a href="outta_pocket.html">Outta Pocket</a>
+            </li>
+            <li class="log_in">
+              <a href="log_in.html">Log In</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- /.container -->
+  </header>
+
+  <div id="get_rid_on_click" class="carries_blocks">
+
+    <h1>Log In to Your Portal!</h1>
+
+    <br><br>
+
+    <div class="formContainer">
+
+      <h4>Log In/Sign Up</h4>
+
+      <div class="videos">
+        <div class="input_areas">
+
+          <input type="email" placeholder="Your Email Goes Here!" id="email"> <br>
+          <input type="password" placeholder="Your Password Goes Here!" id="pass"> <br>
+
+          <button id="log_in" onclick="enter()" class="custom-btn">Log In!</button>
+          <button type="button" id="sign_up" onclick="sign_up()" class="custom-btn">Sign Up!</button>
+
+        </div>
+        <img class="log_in_image"
+          src="https://media.istockphoto.com/id/503603805/photo/two-cyborg-human-heads-and-circuit-brain-mind-control.jpg?s=612x612&w=0&k=20&c=u9he3bZ1YYdZ-Bbxi17mhqS7onVqvNAzBuImxitBVx4=">
+        <div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div id="show_on_click1" class="carries_blocks"> 
+    <h2><a href="https://psychologytoday.tests.psychtests.com/bin/transfer">Fill Out This Comprehensive Test</a></h2>
+  </div>
+
+  <div id="show_on_click" class="carries_blocks">
+    <h1>Track Your Progress From your Portal!</h1>
+
+    <br><br>
+    <div class="the_rep">
+      <h3 class="title">You currently do not have a week worth of journal entries and buddy sessions for a personalized
+        report, but keep working and we'll deliver a personalized report like te one shown below.</h3>
+
+      <div id="change_trans" class="buddie">
+        Based on our Natural Language Processing Algorithm that scanned your weekly journal entries and our Facial
+        Recognition & Voice Recognition that analyzed your buddy sessions, we have assigned you with a personalized
+        game.
+
+        <br> <br>
+
+        A preview of the game is
+
+        <br> <br>
+
+
+        <video width="320" height="240" autoplay loop muted>
+          <source src="record.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+
+        <br><br>
+
+        <a href="#">Click on me to download the game and play!</a>
+
+        <br>
+
+        ------------------------------------------------------------------------------------------------------
+
+        <br> <br>
+
+        Based on our Natural Language Processing Algorithm that scanned your weekly journal entries and our Facial Recognition & Voice Recognition that analyzed your buddy sessions, we have assigned you with a Virtual Reality Environment as well.
+
+        <br> <br>
+
+        A preview of the Environment is
+
+        <br>
+
+
+        <video class="env_vid" width="320" height="240" autoplay loop muted>
+        <source src="the_env.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+        <br>
+
+
+        <a href="#">Click on me to connect this to the VR!</a> <br>
+        <a href="#">Click on me to download just the video!</a>
+
+        <br> <br>
+
+        Note: VR is reccomended for the best results and use of our service
+
+      </div>
+
+    </div>
+
+    <audio src="/ok_buddy.mp3" autoplay>
+      <p>If you are reading this, it is because your browser does not support the audio element. </p>
+      <embed src="/ok_budd.mp3" width="180" height="90" hidden="true" />
+    </audio>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <!-- Scripts -->
+    <script type="text/javascript" src="log_in.js"></script>
+
+</body>
+
+</html>
